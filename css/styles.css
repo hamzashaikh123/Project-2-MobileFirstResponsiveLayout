@@ -1,0 +1,13 @@
+/*Web fonts*/
+@font-face {
+    font-family: "Karla-Regular";
+      src: url('https://fonts.googleapis.com/css?family=Karla&display=swap') format ('truetype'_);
+      
+  }
+  
+  /* Base Styles -------------------- */
+
+  * {
+        box-sizing: border-box; 
+        font-family: "Karla-Regular",Arial, Helvetica, sans-serif;   
+  }
