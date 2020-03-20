@@ -1,13 +1,124 @@
 /*Web fonts*/
 @font-face {
-    font-family: "Karla-Regular";
+    font-family: "Karla";
       src: url('https://fonts.googleapis.com/css?family=Karla&display=swap') format ('truetype'_);
       
   }
   
-  /* Base Styles -------------------- */
-
   * {
         box-sizing: border-box; 
-        font-family: "Karla-Regular",Arial, Helvetica, sans-serif;   
+        font-family: "Karla",Arial, Helvetica, sans-serif;   
   }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ 
+  /* Base Styles -------------------- */
+  #Portfolio{
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+
+  }
+  body{
+    background-color: #d0d5db;
+  }
+
+  .main{
+    background-color: white;
+  }
+  /* Setting the font sizing for the entire webpage's headings */
+  h1,
+  h2,
+  h3 { 
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+
+  img{
+    width: 95%;
+    height: 40%;
+  }
+/* setting the font sizing for the commentary/text within the webpage */
+  p {
+    font-size: 1em;
+    
+  }
+  /* Containers */
+  /* main content container */
+  .container{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* wrapping the footer */
+  .wrap {
+    width:100%;
+    padding-top: 30px;
+    text-align: center;
+    background-color: d0d5db;
+  }
+
+/* Main Header */
+.main-header{
+  text-align: center;
+  
+}
+.image-padding {
+  padding-top: 20px;
+}
+.profile-img {
+  width: 60%;
+  height:50%;
+  padding-top: 30px;
+}
+.main-header li {
+  font-weight: bold;
+  background-color: white;
+  margin: 5px;
+  
+}
+.main-nav a {
+  padding: 10px 5px;
+  display: block;
+}
+
+/* footer navigation */
+.footer {
+  
+  border-top: 5px;
+}
+.footer-title,
+.wrap p,
+.wrap li{
+  padding:10px;
+}
+.contact {
+  margin-top:3em;
+}
+
+.name-bottom{
+  float:left;
+  padding-left: 15px;
+  
+  
+}
+.To-Top{
+  float: right;
+  display: block;
+  width: 50%;
+  text-align: right;
+  color: rgb(127,127,127);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Content formatting */
+.calculator{
+  padding-bottom: 20px;
+}
+
