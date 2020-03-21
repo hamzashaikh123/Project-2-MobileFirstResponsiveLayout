@@ -17,7 +17,7 @@
 }
  
   /* Base Styles -------------------- */
-  #Portfolio{
+  .portfolio{
     text-align: center;
     padding-top: 3em;
     padding-bottom: 2em;
@@ -68,9 +68,10 @@
   text-align: center;
   
 }
-.image-padding {
-  padding-top: 20px;
+.image-padding{
+  padding-top: 1em;
 }
+
 .profile-img {
   width: 60%;
   height:50%;
@@ -122,3 +123,25 @@
   padding-bottom: 20px;
 }
 
+/* media queries for table sized page */
+@media (min-width: 768px) {
+  h3 {
+    font-size: 1em;
+  }
+  .portfolio {
+    padding: 20px;
+  }
+
+  .left-float {
+    width: 50%;
+    float:left;
+  }
+  .right-float{
+    width: 50%;
+    float:right;
+
+  }
+
+
+
+}
