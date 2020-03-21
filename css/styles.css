@@ -141,7 +141,17 @@
     float:right;
 
   }
+}
 
+@media (min-width: 1024px) {
+  .left-float-max {
+    width: 33%;
+    float:left
+  }
+  .right-float-max{
+    width: 33%;
+    float: right;
 
+  }
 
 }
