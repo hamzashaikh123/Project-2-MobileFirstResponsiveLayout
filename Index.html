@@ -10,58 +10,59 @@
 
 <body>
 
-    <div class = "container clearfix">
-        <header class= "main-header"> 
-                <h1>Student Name</h1>
-                <ul class="main-nav">
-                    <li><a href=#> Home</a></li> 
-                    <li><a href=#Portfolio>Portfolio</a></li> 
-                    <li><a href=#Contact>Contact</a></li> 
-                </ul>
-                <img src="images/responsive-layout-profile.png" alt="profile image-placeholder" class="profile-img">
-                <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p> 
-        </header> 
+    
+    <header class= "main-header clearfix">  
+        <h1>Student Name</h1>
+        <nav>  
+            <ul class="main-nav clearfix">
+                <li><a href=#> Home</a></li> 
+                <li><a href=#Portfolio>Portfolio</a></li> 
+                <li><a href=#Contact>Contact</a></li> 
+            </ul>
+        </nav>
+        <img src="images/responsive-layout-profile.png" alt="profile image-placeholder" class="profile-img clearfix">
+        <p class="main-text clearfix">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p> 
+    </header> 
 
-        <div class="main clearfix"></div>
-            <h2 class="portfolio">PORTFOLIO</h2>
+    <div class = "container clearfix">    
+        <h2 id="Portfolio" class="portfolio" >PORTFOLIO</h2>
+    
+    
+        <div class="left-float left-float-max clearfix">
+            <img src="images/portfolio-1.png" alt="Portfolio logo" class="image-padding">
+            <h3>Marketing Page</h3>
+            <p class="image-commentary">This project shows the front page of a marketing website meant for specific business I'm interested in.</p>
+        </div>
+
+        <div class="right-float left-float-max clearfix">
+            <img src="images/portfolio-2.png" alt="Search Page Logo" class= "image-padding">
+            <h3>Search Page</h3>  
+            <p class="image-commentary">The project searches through a specific database to find information that the user is trying to look up</p>  
+        </div>
+        
+        <div class="left-float left-float-max clearfix"> 
+            <img src="images/portfolio-3.png" alt="Travel App Logo" class= "image-padding">
+            <h3>Travel App</h3> 
+            <p class="image-commentary">This project compares travel times based on different transportation methods and tells you the best one</p>
+        </div>
+            
+        <div class="right-float right-float-max clearfix">
+            <img src="images/portfolio-4.png" alt="Favourite places logo" class= "image-padding">
+            <h3>Map of Favourite Places</h3> 
+            <p class="image-commentary">This project uses mapping apis to plot points for my favourite spots in the city for a do-it-yourself walking tour</p>
+        </div>
         
         
-            <div class="left-float left-float-max clearfix">
-                <img src="images/portfolio-1.png" alt="Portfolio logo" class="image-padding">
-                <h3>Marketing Page</h3>
-                <p>This project shows the front page of a marketing website meant for specific business I'm interested in.</p>
-            </div>
-
-            <div class="right-float left-float-max clearfix">
-                <img src="images/portfolio-2.png" alt="Search Page Logo" class= "image-padding">
-                <h3>Search Page</h3>  
-                <p>The project searches through a specific database to find information that the user is trying to look up</p>  
-            </div>
-            
-            <div class="left-float left-float-max clearfix"> 
-                <img src="images/portfolio-3.png" alt="Travel App Logo" class= "image-padding">
-                <h3>Travel App</h3> 
-                <p>This project compares travel times based on different transportation methods and tells you the best one</p>
-            </div>
-                
-            <div class="right-float right-float-max clearfix">
-                <img src="images/portfolio-4.png" alt="Favourite places logo" class= "image-padding">
-                <h3>Map of Favourite Places</h3> 
-                <p>This project uses mapping apis to plot points for my favourite spots in the city for a do-it-yourself walking tour</p>
-            </div>
-           
-            
-            <div class="left-float right-float-max clearfix">
-                <img src="images/portfolio-5.png" alt="Photo Gallery logo" class= "image-padding">
-                <h3>Photo Gallery</h3> 
-                <p>This project shows pictures from a recent trip to a viewer and allows them to easily navigate through photos</p>
-            </div>
-            
-            <div class="calculator right-float right-float-max clearfix">
-                <img src="images/portfolio-6.png" alt="Calculator logo" class= "image-padding">
-                <h3>Calculator</h3> 
-                <p>Someone can enter in the numbers they want, and press the big blue button and get the results</p>
-            </div>
+        <div class="left-float right-float-max clearfix">
+            <img src="images/portfolio-5.png" alt="Photo Gallery logo" class= "image-padding">
+            <h3>Photo Gallery</h3> 
+            <p class="image-commentary">This project shows pictures from a recent trip to a viewer and allows them to easily navigate through photos</p>
+        </div>
+        
+        <div class="calculator right-float right-float-max clearfix">
+            <img src="images/portfolio-6.png" alt="Calculator logo" class= "image-padding">
+            <h3>Calculator</h3> 
+            <p class="image-commentary">Someone can enter in the numbers they want, and press the big blue button and get the results</p>
         </div>
     
 

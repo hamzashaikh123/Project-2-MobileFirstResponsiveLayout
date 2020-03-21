@@ -36,6 +36,7 @@
   h3 { 
     font-weight: bold;
     font-size: 2em;
+    margin: 0.5em;
   }
 
 
@@ -63,6 +64,11 @@
     background-color: d0d5db;
   }
 
+  .main-header {
+    width: 95%;
+    margin: 0 auto;
+  }
+
 /* Main Header */
 .main-header{
   text-align: center;
@@ -77,11 +83,14 @@
   height:50%;
   padding-top: 30px;
 }
-.main-header li {
+.main-nav{
   font-weight: bold;
-  background-color: white;
   margin: 5px;
   
+}
+.main-nav li {
+  margin: 10px;
+  background-color: white;
 }
 .main-nav a {
   padding: 10px 5px;
@@ -103,6 +112,8 @@
 }
 
 .name-bottom{
+  font-size: 15px;
+  font-weight: bold;
   float:left;
   padding-left: 15px;
   
@@ -116,6 +127,7 @@
   color: rgb(127,127,127);
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* Content formatting */
@@ -126,7 +138,16 @@
 /* media queries for table sized page */
 @media (min-width: 768px) {
   h3 {
-    font-size: 1em;
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .image-commentary{
+    padding: 0 20px;
+  }
+  .wrap p {
+    padding: 5px;
   }
   .portfolio {
     padding: 20px;
@@ -135,12 +156,33 @@
   .left-float {
     width: 50%;
     float:left;
+    margin-bottom: 20px;
   }
   .right-float{
     width: 50%;
     float:right;
-
+    margin-bottom: 20px;
   }
+  .main-nav li{
+    display: inline-block;
+    background-color: inherit;
+    padding: 0 10px;
+    text-transform: uppercase;
+  }
+
+  .profile-img {
+    float:right;
+    width: 40%;
+    height: 50%;
+    padding: 5px;
+  }
+  .main-text {
+    float: left;
+    width: 60%;
+    font-size: 1.5em;
+    text-align: left;
+  }
+  
 }
 
 @media (min-width: 1024px) {
