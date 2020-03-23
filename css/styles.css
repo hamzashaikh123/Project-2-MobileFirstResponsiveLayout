@@ -1,7 +1,9 @@
 /*Web fonts*/
 @font-face {
     font-family: "Karla";
-      src: url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+      src: url('../fonts/karla/Karla-Regular.ttf') format('truetype');
+    font-family: "fjalla_one";
+      src: url('../fonts/Fjalla_One/FjallaOne-Regular.ttf')format('truetype')
       
   }
   
@@ -34,6 +36,7 @@
   h1,
   h2,
   h3 { 
+    font-family: 'fjalla_one',Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2em;
     margin: 0.5em;
@@ -46,6 +49,7 @@
   }
 /* setting the font sizing for the commentary/text within the webpage */
   p {
+    font-family: "Karla",Arial, Helvetica, sans-serif;  
     font-size: 1em;
     
   }
