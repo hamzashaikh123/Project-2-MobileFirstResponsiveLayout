@@ -9,17 +9,18 @@
 </head>
 
 <body>
-
-    
     <header class= "main-header clearfix">  
-        <h1>Student Name</h1>
-        <nav>  
-            <ul class="main-nav clearfix">
-                <li><a href=#> Home</a></li> 
-                <li><a href=#Portfolio>Portfolio</a></li> 
-                <li><a href=#Contact>Contact</a></li> 
-            </ul>
-        </nav>
+        <section class="laptop-header clearfix">
+            <h1 class= "student-name clearfix">Student Name</h1>
+            <nav>  
+                <ul class="main-nav clearfix">
+                    <li><a href=#> Home</a></li> 
+                    <li><a href=#Portfolio>Portfolio</a></li> 
+                    <li><a href=#Contact>Contact</a></li> 
+                    <li><a href="#Skills">Skills</a></li>
+                </ul>
+            </nav>
+        </section>
         <img src="images/responsive-layout-profile.png" alt="profile image-placeholder" class="profile-img clearfix">
         <p class="main-text clearfix">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p> 
     </header> 
@@ -56,20 +57,32 @@
         <div class="left-float right-float-max clearfix">
             <img src="images/portfolio-5.png" alt="Photo Gallery logo" class= "image-padding">
             <h3>Photo Gallery</h3> 
-            <p class="image-commentary">This project shows pictures from a recent trip to a viewer and allows them to easily navigate through photos</p>
+            <p class="image-commentary clearfix">This project shows pictures from a recent trip to a viewer and allows them to easily navigate through photos</p>
         </div>
         
         <div class="calculator right-float right-float-max clearfix">
             <img src="images/portfolio-6.png" alt="Calculator logo" class= "image-padding">
             <h3>Calculator</h3> 
-            <p class="image-commentary">Someone can enter in the numbers they want, and press the big blue button and get the results</p>
+            <p class="image-commentary clearfix">Someone can enter in the numbers they want, and press the big blue button and get the results</p>
         </div>
-    
 
-    
+    </div>
+
+    <section class="skills-container clearfix">
+        <h2 id="Skills" class="skills">Skills</h2>
+        <img src="images/skills.png" alt="Skills image" class="image-padding left-float">
+        <p>Collectively all the above projects demonstrate the following skills: </p>
+        <ul class="skills-list right-float clearfix">
+            <li>HTML Fundementals</li>
+            <li>Fundemental CSS application</li>
+            <li>Javascript Coding</li>
+            <li>Web Design - Color Theory</li>
+        </ul>
+    </section>
+
     <div class="wrap clearfix">
-            <h3 id="Contact" class="footer-title">Contact</h3>
-            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+            <h3 id="Contact" class="footer-title clearfix">Contact</h3>
+            <p class="closing-text">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <ul>
                 <li>Phone:<b> 647 222-9947</b></li>
                 <li>Email:<b> Hamzashaikh1996@gmail.com</b></li>
@@ -79,6 +92,14 @@
         <footer class="footer">
             <p class="name-bottom clearfix">Hamza Shaikh</p>
             <p class="To-Top clearfix"> <a href =#>Back to top</a></p>
+            <nav>  
+                <ul class="bottom-nav To-Top clearfix">
+                    <li><a href=#> Home</a></li> 
+                    <li><a href=#Portfolio>Portfolio</a></li> 
+                    <li><a href=#Contact>Contact</a></li> 
+                    <li><a href="#Skills">Skills</a></li>
+                </ul>
+            </nav>
         </footer>
     </div>
 </body>

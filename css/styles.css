@@ -1,7 +1,7 @@
 /*Web fonts*/
 @font-face {
     font-family: "Karla";
-      src: url('https://fonts.googleapis.com/css?family=Karla&display=swap') format ('truetype'_);
+      src: url('https://fonts.googleapis.com/css?family=Karla&display=swap');
       
   }
   
@@ -56,12 +56,18 @@
     margin: 0 auto;
     text-align: center;
   }
+  .skills-container {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   /* wrapping the footer */
   .wrap {
     width:100%;
     padding-top: 30px;
     text-align: center;
-    background-color: d0d5db;
+  
   }
 
   .main-header {
@@ -112,12 +118,14 @@
 }
 
 .name-bottom{
-  font-size: 15px;
+  font-size: 1.2em;
   font-weight: bold;
   float:left;
   padding-left: 15px;
-  
-  
+  margin-bottom: 5px;
+}
+.closing-text{
+  margin: 0 4em;
 }
 .To-Top{
   float: right;
@@ -130,9 +138,33 @@
   font-weight: bold;
 }
 
+.bottom-nav{
+  font-weight: bold;
+  margin: 5px;
+  display: none;  
+}
+.bottom-nav li {
+  margin: 10px;
+  background-color: white;
+}
+.bottom-nav a {
+  padding: 10px 5px;
+  display: block;
+}
+
 /* Content formatting */
 .calculator{
   padding-bottom: 20px;
+}
+
+.skills-list li {
+  background-color: white;
+  margin: 5px;
+}
+.skills-list a {
+  padding: 10px 5px;
+  display: block;
+
 }
 
 /* media queries for table sized page */
@@ -141,10 +173,10 @@
     font-size: 1.5em;
   }
   p {
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
   .image-commentary{
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .wrap p {
     padding: 5px;
@@ -156,12 +188,11 @@
   .left-float {
     width: 50%;
     float:left;
-    margin-bottom: 20px;
   }
   .right-float{
     width: 50%;
     float:right;
-    margin-bottom: 20px;
+
   }
   .main-nav li{
     display: inline-block;
@@ -182,7 +213,12 @@
     font-size: 1.5em;
     text-align: left;
   }
-  
+  .closing-text{
+    margin: 0 200px;
+  }
+  .skills-list li{
+    margin-top:1em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -193,7 +229,28 @@
   .right-float-max{
     width: 33%;
     float: right;
-
   }
+  .student-name{
 
+    float: left;
+  }
+  .main-nav{
+    float:right;
+  }
+  .laptop-header {
+    padding-top: 30px;
+  }
+  .To-Top{
+    display: none;
+  }
+  .bottom-nav {
+    display: inherit;
+    float:right;
+    font-size: 15px;
+  }
+  .bottom-nav li {
+    display: inline-block;
+    padding: 0;
+    background-color:inherit;
+  }
 }
