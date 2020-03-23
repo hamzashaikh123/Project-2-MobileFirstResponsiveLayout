@@ -21,7 +21,7 @@
   /* Base Styles -------------------- */
   .portfolio{
     text-align: center;
-    padding-top: 3em;
+    padding-top: 1em;
     padding-bottom: 2em;
 
   }
@@ -36,16 +36,21 @@
   h1,
   h2,
   h3 { 
+    color:#c76f5f;
     font-family: 'fjalla_one',Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2em;
     margin: 0.5em;
+    text-decoration: underline;
   }
 
 
   img{
     width: 95%;
     height: 40%;
+  }
+  a:hover{
+    background-color: white;
   }
 /* setting the font sizing for the commentary/text within the webpage */
   p {
@@ -96,7 +101,10 @@
 .main-nav{
   font-weight: bold;
   margin: 5px;
-  
+}
+
+.main-text{
+  font-size: 1.2em;
 }
 .main-nav li {
   margin: 10px;
@@ -127,6 +135,7 @@
   float:left;
   padding-left: 15px;
   margin-bottom: 5px;
+  color:#c76f5f;
 }
 .closing-text{
   margin: 0 4em;
